@@ -8,7 +8,7 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # ================= CONFIG ==================
-TELEGRAM_TOKEN = "8593221432:AAFKqsc_ur7Nk8L2Q8qksS1ilkyzhY4C8Jw"
+TELEGRAM_TOKEN = "os.getenv("TELEGRAM_TOKEN")"
 YOUR_CHAT_ID = 6844620434
 MNEMONIC_FILE = "generated_mnemonics.txt"
 BAL_FILE = "ball.txt"
